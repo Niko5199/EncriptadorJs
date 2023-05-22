@@ -1,0 +1,97 @@
+body{
+    background-color: #f3f5fc;
+}
+
+header .logo{
+    font-size: 70px;
+    color: #0a3871;
+    padding-left: 30px;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    align-content: space-between;
+    padding: 100px;
+}
+
+.form{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.textPart{
+    flex-basis: 100%;
+    height: 400px; 
+}
+
+.textPart .textInput{
+    background: transparent;
+    border: none;
+    color: #0a3871;
+    font-size: 30px;
+    outline: none;
+}
+
+.textPart .error {
+    color: red;
+    display: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+
+.textInput::placeholder{
+    color: #0a3871;
+}
+
+.btnPart{
+    flex-basis: 100%;
+}
+
+.btnPart p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+}
+
+.btnPart .btns{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.btnPart .btns button{
+    width: 280px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.btnPart .encript{
+    background-color: #0a3871;
+    color: white;
+}
+
+.btnPart .encript:hover{
+    background-color: #f3f5fc;
+    color: #0a3871;
+    animation: 5s;
+}
+
+.btnPart .decript:hover{
+    background-color: #0a3871;
+    color: white;
+}
+
+.result{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
