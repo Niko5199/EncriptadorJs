@@ -33,8 +33,4 @@ function descript(string) {
   return result;
 }
 
-// const resEncript = encript("Hola"); // expect Hoberlai
-
-// descript(resEncript);
-
 export { validation, encript, descript };

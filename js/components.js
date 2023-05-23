@@ -1,4 +1,4 @@
-import { validation, encript } from "../js/main.js";
+import { validation, encript, descript } from "../js/main.js";
 
 const btnEncript = document.querySelector("#encript");
 const btnDecript = document.querySelector("#decript");
@@ -15,4 +15,9 @@ btnEncript.addEventListener("click", function (e) {
     : (errorText.computedStyleMap.display = "");
 
   resultText.textContent = res;
+});
+
+btnDecript.addEventListener("click", function (e) {
+  const result = descript(resultText.textContent);
+  resultText.textContent = result;
 });
